@@ -1,7 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="interpolator" name="mtrl_fast_out_linear_in">kotlin/m9.xml</item>
-    <item type="interpolator" name="mtrl_fast_out_slow_in">kotlin/re.xml</item>
-    <item type="interpolator" name="mtrl_linear">kotlin/45.xml</item>
-    <item type="interpolator" name="mtrl_linear_out_slow_in">kotlin/us.xml</item>
 </resources>

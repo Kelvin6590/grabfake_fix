@@ -1,31 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="drawable" name="design_ic_visibility">kotlin/um</item>
-    <item type="drawable" name="design_ic_visibility_off">kotlin/re</item>
-    <item type="drawable" name="abc_btn_check_to_on_mtrl_000">kotlin/wz</item>
-    <item type="drawable" name="abc_btn_check_to_on_mtrl_015">kotlin/ik</item>
-    <item type="drawable" name="abc_btn_radio_to_on_mtrl_000">kotlin/mq</item>
-    <item type="drawable" name="abc_btn_radio_to_on_mtrl_015">kotlin/u7</item>
-    <item type="drawable" name="abc_btn_switch_to_on_mtrl_00001">kotlin/e3</item>
-    <item type="drawable" name="abc_btn_switch_to_on_mtrl_00012">kotlin/4d</item>
-    <item type="drawable" name="abc_ic_menu_copy_mtrl_am_alpha">kotlin/fl</item>
-    <item type="drawable" name="abc_ic_menu_cut_mtrl_alpha">kotlin/xk</item>
-    <item type="drawable" name="abc_ic_menu_paste_mtrl_am_alpha">kotlin/t7</item>
-    <item type="drawable" name="abc_ic_menu_selectall_mtrl_alpha">kotlin/xm</item>
-    <item type="drawable" name="abc_ic_menu_share_mtrl_alpha">kotlin/7b</item>
-    <item type="drawable" name="abc_ic_star_black_16dp">kotlin/a7</item>
-    <item type="drawable" name="abc_ic_star_black_36dp">kotlin/rv</item>
-    <item type="drawable" name="abc_ic_star_black_48dp">kotlin/xs</item>
-    <item type="drawable" name="abc_ic_star_half_black_16dp">kotlin/gg</item>
-    <item type="drawable" name="abc_ic_star_half_black_36dp">kotlin/s8</item>
-    <item type="drawable" name="abc_ic_star_half_black_48dp">kotlin/eh</item>
-    <item type="drawable" name="abc_scrubber_control_to_pressed_mtrl_000">kotlin/hf</item>
-    <item type="drawable" name="abc_scrubber_control_to_pressed_mtrl_005">kotlin/3y</item>
-    <item type="drawable" name="abc_spinner_mtrl_am_alpha">kotlin/oe</item>
-    <item type="drawable" name="abc_switch_track_mtrl_alpha">kotlin/38</item>
-    <item type="drawable" name="abc_tab_indicator_mtrl_alpha">kotlin/mc</item>
-    <item type="drawable" name="abc_text_select_handle_left_mtrl_dark">kotlin/vs</item>
-    <item type="drawable" name="abc_text_select_handle_left_mtrl_light">kotlin/el</item>
-    <item type="drawable" name="abc_text_select_handle_right_mtrl_dark">kotlin/sq</item>
-    <item type="drawable" name="abc_text_select_handle_right_mtrl_light">kotlin/yw</item>
 </resources>
