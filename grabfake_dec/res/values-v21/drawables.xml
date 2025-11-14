@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="abc_btn_colored_material">kotlin/hc.xml</item>
+    <item type="drawable" name="abc_dialog_material_background">kotlin/rm.xml</item>
+    <item type="drawable" name="abc_edit_text_material">kotlin/rh.xml</item>
+    <item type="drawable" name="abc_list_divider_material">kotlin/ej.xml</item>
+    <item type="drawable" name="abc_ratingbar_indicator_material">kotlin/ks.xml</item>
+    <item type="drawable" name="abc_ratingbar_material">kotlin/d3.xml</item>
+    <item type="drawable" name="abc_ratingbar_small_material">kotlin/mr.xml</item>
+    <item type="drawable" name="design_bottom_navigation_item_background">kotlin/eh.xml</item>
+    <item type="drawable" name="design_password_eye">kotlin/9d.xml</item>
+    <item type="drawable" name="abc_action_bar_item_background_material">kotlin/ro.xml</item>
+    <item type="drawable" name="avd_hide_password">kotlin/xh.xml</item>
+    <item type="drawable" name="avd_show_password">kotlin/iq.xml</item>
+    <item type="drawable" name="notification_action_background">kotlin/9z.xml</item>
+    <item type="drawable" name="avd_hide_password_1">kotlin/5u.xml</item>
+    <item type="drawable" name="avd_hide_password_2">kotlin/lg.xml</item>
+    <item type="drawable" name="avd_hide_password_3">kotlin/i2.xml</item>
+    <item type="drawable" name="avd_show_password_1">kotlin/6h.xml</item>
+    <item type="drawable" name="avd_show_password_2">kotlin/ub.xml</item>
+    <item type="drawable" name="avd_show_password_3">kotlin/ek.xml</item>
+</resources>

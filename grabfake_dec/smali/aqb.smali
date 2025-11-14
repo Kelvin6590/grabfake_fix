@@ -1,0 +1,122 @@
+.class public final Laqb;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final d:Laqc;
+
+
+# instance fields
+.field public final a:Lamz;
+
+.field public final b:I
+
+.field public final c:Ljava/lang/String;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Laqc;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Laqc;-><init>(Lahs;)V
+
+    sput-object v0, Laqb;->d:Laqc;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lamz;ILjava/lang/String;)V
+    .locals 1
+
+    .prologue
+    const-string v0, "protocol"
+
+    invoke-static {p1, v0}, Lahu;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "message"
+
+    invoke-static {p3, v0}, Lahu;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 24
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Laqb;->a:Lamz;
+
+    iput p2, p0, Laqb;->b:I
+
+    iput-object p3, p0, Laqb;->c:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public toString()Ljava/lang/String;
+    .locals 4
+
+    .prologue
+    const/16 v3, 0x20
+
+    .line 31
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 32
+    iget-object v1, p0, Laqb;->a:Lamz;
+
+    sget-object v2, Lamz;->a:Lamz;
+
+    if-ne v1, v2, :cond_0
+
+    .line 33
+    const-string v1, "HTTP/1.0"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 36
+    :goto_0
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    iget v2, p0, Laqb;->b:I
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 38
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    iget-object v2, p0, Laqb;->c:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 39
+    nop
+
+    .line 31
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "StringBuilder().apply(builderAction).toString()"
+
+    invoke-static {v0, v1}, Lahu;->a(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-object v0
+
+    .line 35
+    :cond_0
+    const-string v1, "HTTP/1.1"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto :goto_0
+.end method

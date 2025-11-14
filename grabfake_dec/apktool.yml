@@ -1,0 +1,361 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: my_GrabFake.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- kotlin/0
+- kotlin/02
+- kotlin/06
+- kotlin/07
+- kotlin/09
+- kotlin/0e
+- kotlin/0z
+- kotlin/1
+- kotlin/17
+- kotlin/19
+- kotlin/1d
+- kotlin/1n
+- kotlin/1q
+- kotlin/1u
+- kotlin/1v
+- kotlin/1y
+- kotlin/2
+- kotlin/20
+- kotlin/2c
+- kotlin/2h
+- kotlin/2l
+- kotlin/2m
+- kotlin/2w
+- kotlin/3
+- kotlin/36
+- kotlin/38
+- kotlin/3k
+- kotlin/3m
+- kotlin/3o
+- kotlin/3r
+- kotlin/3s
+- kotlin/3y
+- kotlin/4
+- kotlin/40
+- kotlin/45
+- kotlin/4d
+- kotlin/4e
+- kotlin/4s
+- kotlin/5
+- kotlin/59
+- kotlin/5e
+- kotlin/5g
+- kotlin/5l
+- kotlin/5m
+- kotlin/5o
+- kotlin/5x
+- kotlin/6
+- kotlin/64
+- kotlin/67
+- kotlin/69
+- kotlin/6g
+- kotlin/6n
+- kotlin/6u
+- kotlin/7
+- kotlin/74
+- kotlin/7b
+- kotlin/7c
+- kotlin/7f
+- kotlin/7i
+- kotlin/7j
+- kotlin/7k
+- kotlin/7v
+- kotlin/8
+- kotlin/81
+- kotlin/88
+- kotlin/8a
+- kotlin/8i
+- kotlin/8y
+- kotlin/9
+- kotlin/9c
+- kotlin/9g
+- kotlin/9j
+- kotlin/9p
+- kotlin/9t
+- kotlin/a
+- kotlin/a4
+- kotlin/a7
+- kotlin/ai
+- kotlin/au
+- kotlin/ay
+- kotlin/b
+- kotlin/b0
+- kotlin/b6
+- kotlin/b8
+- kotlin/bc
+- kotlin/bf
+- kotlin/bh
+- kotlin/bl
+- kotlin/bt
+- kotlin/bv
+- kotlin/bz
+- kotlin/c
+- kotlin/c2
+- kotlin/c6
+- kotlin/cd
+- kotlin/co
+- kotlin/cy
+- kotlin/d
+- kotlin/dk
+- kotlin/do
+- kotlin/e
+- kotlin/e3
+- kotlin/e5
+- kotlin/e9
+- kotlin/eg
+- kotlin/eh
+- kotlin/el
+- kotlin/eo
+- kotlin/es
+- kotlin/ev
+- kotlin/f
+- kotlin/f1
+- kotlin/f5
+- kotlin/fi
+- kotlin/fk
+- kotlin/fl
+- kotlin/fm
+- kotlin/fp
+- kotlin/fq
+- kotlin/fs
+- kotlin/fz
+- kotlin/g
+- kotlin/g2
+- kotlin/g4
+- kotlin/g5
+- kotlin/g6
+- kotlin/gg
+- kotlin/gh
+- kotlin/gm
+- kotlin/gp
+- kotlin/gu
+- kotlin/gx
+- kotlin/h
+- kotlin/h2
+- kotlin/h8
+- kotlin/hf
+- kotlin/ho
+- kotlin/i
+- kotlin/i0
+- kotlin/i1
+- kotlin/if
+- kotlin/ik
+- kotlin/ip
+- kotlin/j
+- kotlin/j1
+- kotlin/j3
+- kotlin/j7
+- kotlin/jb
+- kotlin/jc
+- kotlin/je
+- kotlin/jk
+- kotlin/jn
+- kotlin/jr
+- kotlin/k
+- kotlin/k5
+- kotlin/k6
+- kotlin/kb
+- kotlin/kh
+- kotlin/kj
+- kotlin/kn
+- kotlin/kv
+- kotlin/kx
+- kotlin/l
+- kotlin/l4
+- kotlin/la
+- kotlin/le
+- kotlin/lf
+- kotlin/li
+- kotlin/ll
+- kotlin/lz
+- kotlin/m
+- kotlin/m3
+- kotlin/mc
+- kotlin/me
+- kotlin/mf
+- kotlin/ml
+- kotlin/mp
+- kotlin/mq
+- kotlin/ms
+- kotlin/n
+- kotlin/n1
+- kotlin/n2
+- kotlin/n9
+- kotlin/ni
+- kotlin/nr
+- kotlin/nt
+- kotlin/nu
+- kotlin/o
+- kotlin/oe
+- kotlin/oh
+- kotlin/oi
+- kotlin/ol
+- kotlin/or
+- kotlin/os
+- kotlin/p
+- kotlin/p5
+- kotlin/pa
+- kotlin/pb
+- kotlin/pu
+- kotlin/q
+- kotlin/q1
+- kotlin/q4
+- kotlin/q6
+- kotlin/q7
+- kotlin/qd
+- kotlin/qu
+- kotlin/qw
+- kotlin/r
+- kotlin/r7
+- kotlin/re
+- kotlin/rg
+- kotlin/rk
+- kotlin/rr
+- kotlin/rt
+- kotlin/rv
+- kotlin/ry
+- kotlin/s
+- kotlin/s0
+- kotlin/s3
+- kotlin/s4
+- kotlin/s5
+- kotlin/s8
+- kotlin/sa
+- kotlin/sq
+- kotlin/sv
+- kotlin/sz
+- kotlin/t
+- kotlin/t2
+- kotlin/t7
+- kotlin/tc
+- kotlin/th
+- kotlin/tn
+- kotlin/tp
+- kotlin/ts
+- kotlin/tv
+- kotlin/u
+- kotlin/u7
+- kotlin/ul
+- kotlin/um
+- kotlin/un
+- kotlin/uy
+- kotlin/uz
+- kotlin/v
+- kotlin/v2
+- kotlin/v6
+- kotlin/vd
+- kotlin/vs
+- kotlin/vx
+- kotlin/vy
+- kotlin/vz
+- kotlin/w
+- kotlin/w1
+- kotlin/w5
+- kotlin/w7
+- kotlin/wc
+- kotlin/wh
+- kotlin/wi
+- kotlin/wm
+- kotlin/wn
+- kotlin/wp
+- kotlin/ww
+- kotlin/wz
+- kotlin/x
+- kotlin/x5
+- kotlin/x8
+- kotlin/xk
+- kotlin/xl
+- kotlin/xm
+- kotlin/xr
+- kotlin/xs
+- kotlin/xy
+- kotlin/xz
+- kotlin/y
+- kotlin/ya
+- kotlin/yc
+- kotlin/yw
+- kotlin/z
+- kotlin/z0
+- kotlin/z3
+- kotlin/z6
+- kotlin/z7
+- kotlin/zf
+- kotlin/zj
+- kotlin/zo
+- kotlin/zp
+- kotlin/zq
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-location.properties: '8'
+  play-services-maps.properties: '8'
+  play-services-places-placereport.properties: '8'
+  play-services-tasks.properties: '8'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+  okio/ArrayIndexOutOfBoundsException.kotlin_metadata: '8'
+  okio/BlackholeSink.kotlin_metadata: '8'
+  okio/Buffer.kotlin_metadata: '8'
+  okio/BufferedSink.kotlin_metadata: '8'
+  okio/BufferedSource.kotlin_metadata: '8'
+  okio/ByteString.kotlin_metadata: '8'
+  okio/Closeable.kotlin_metadata: '8'
+  okio/EOFException.kotlin_metadata: '8'
+  okio/ExperimentalFileSystem.kotlin_metadata: '8'
+  okio/FileHandle.kotlin_metadata: '8'
+  okio/FileMetadata.kotlin_metadata: '8'
+  okio/FileNotFoundException.kotlin_metadata: '8'
+  okio/FileSystem.kotlin_metadata: '8'
+  okio/ForwardingFileSystem.kotlin_metadata: '8'
+  okio/ForwardingSource.kotlin_metadata: '8'
+  okio/HashingSink.kotlin_metadata: '8'
+  okio/HashingSource.kotlin_metadata: '8'
+  okio/IOException.kotlin_metadata: '8'
+  okio/Lock.kotlin_metadata: '8'
+  okio/OkioKt.kotlin_metadata: '8'
+  okio/Options.kotlin_metadata: '8'
+  okio/Path.kotlin_metadata: '8'
+  okio/PeekSource.kotlin_metadata: '8'
+  okio/ProtocolException.kotlin_metadata: '8'
+  okio/RealBufferedSink.kotlin_metadata: '8'
+  okio/RealBufferedSource.kotlin_metadata: '8'
+  okio/Segment.kotlin_metadata: '8'
+  okio/SegmentPool.kotlin_metadata: '8'
+  okio/SegmentedByteString.kotlin_metadata: '8'
+  okio/Sink.kotlin_metadata: '8'
+  okio/Source.kotlin_metadata: '8'
+  okio/Timeout.kotlin_metadata: '8'
+  okio/Utf8Kt.kotlin_metadata: '8'
+  okio/_Base64Kt.kotlin_metadata: '8'
+  okio/_CommonPlatformKt.kotlin_metadata: '8'
+  okio/_UtilKt.kotlin_metadata: '8'
+  okio/internal/_BufferKt.kotlin_metadata: '8'
+  okio/internal/_ByteStringKt.kotlin_metadata: '8'
+  okio/internal/_FileSystemKt.kotlin_metadata: '8'
+  okio/internal/_PathKt.kotlin_metadata: '8'
+  okio/internal/_RealBufferedSinkKt.kotlin_metadata: '8'
+  okio/internal/_RealBufferedSourceKt.kotlin_metadata: '8'
+  okio/internal/_SegmentedByteStringKt.kotlin_metadata: '8'
+  okio/internal/_Utf8Kt.kotlin_metadata: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0
+versionInfo:
+  versionCode: '1'
+  versionName: 1.0.0

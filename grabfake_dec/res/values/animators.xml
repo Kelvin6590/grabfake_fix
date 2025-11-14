@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="animator" name="design_fab_hide_motion_spec">kotlin/qm.xml</item>
+    <item type="animator" name="design_fab_show_motion_spec">kotlin/fo.xml</item>
+    <item type="animator" name="mtrl_btn_state_list_anim">kotlin/zk.xml</item>
+    <item type="animator" name="mtrl_btn_unelevated_state_list_anim">kotlin/6l.xml</item>
+    <item type="animator" name="mtrl_chip_state_list_anim">kotlin/xo.xml</item>
+    <item type="animator" name="mtrl_fab_hide_motion_spec">kotlin/cl.xml</item>
+    <item type="animator" name="mtrl_fab_show_motion_spec">kotlin/o8.xml</item>
+    <item type="animator" name="mtrl_fab_transformation_sheet_collapse_spec">kotlin/4h.xml</item>
+    <item type="animator" name="mtrl_fab_transformation_sheet_expand_spec">kotlin/fc.xml</item>
+</resources>

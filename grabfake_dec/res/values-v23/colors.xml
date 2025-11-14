@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="color" name="abc_btn_colored_borderless_text_material">kotlin/fn.xml</item>
+    <item type="color" name="abc_btn_colored_text_material">kotlin/90.xml</item>
+    <item type="color" name="abc_tint_btn_checkable">kotlin/oh.xml</item>
+    <item type="color" name="abc_tint_default">kotlin/w3.xml</item>
+    <item type="color" name="abc_tint_edittext">kotlin/au.xml</item>
+    <item type="color" name="abc_tint_seek_thumb">kotlin/23.xml</item>
+    <item type="color" name="abc_tint_spinner">kotlin/mf.xml</item>
+    <item type="color" name="abc_tint_switch_track">kotlin/gt.xml</item>
+    <item type="color" name="design_tint_password_toggle">kotlin/qz.xml</item>
+    <item type="color" name="abc_color_highlight_material">kotlin/oq.xml</item>
+</resources>

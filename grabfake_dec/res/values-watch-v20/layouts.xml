@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="abc_alert_dialog_button_bar_material">kotlin/ef</item>
+    <item type="layout" name="abc_alert_dialog_title_material">kotlin/f6</item>
+</resources>

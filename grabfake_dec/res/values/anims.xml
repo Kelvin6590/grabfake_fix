@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="anim" name="abc_fade_in">kotlin/o3.xml</item>
+    <item type="anim" name="abc_fade_out">kotlin/he.xml</item>
+    <item type="anim" name="abc_grow_fade_in_from_bottom">kotlin/m0.xml</item>
+    <item type="anim" name="abc_popup_enter">kotlin/k6.xml</item>
+    <item type="anim" name="abc_popup_exit">kotlin/xb.xml</item>
+    <item type="anim" name="abc_shrink_fade_out_from_bottom">kotlin/i4.xml</item>
+    <item type="anim" name="abc_slide_in_bottom">kotlin/0y.xml</item>
+    <item type="anim" name="abc_slide_in_top">kotlin/1s.xml</item>
+    <item type="anim" name="abc_slide_out_bottom">kotlin/c3.xml</item>
+    <item type="anim" name="abc_slide_out_top">kotlin/95.xml</item>
+    <item type="anim" name="abc_tooltip_enter">kotlin/3m.xml</item>
+    <item type="anim" name="abc_tooltip_exit">kotlin/it.xml</item>
+    <item type="anim" name="design_bottom_sheet_slide_in">kotlin/9r.xml</item>
+    <item type="anim" name="design_bottom_sheet_slide_out">kotlin/bp.xml</item>
+    <item type="anim" name="design_snackbar_in">kotlin/jp.xml</item>
+    <item type="anim" name="design_snackbar_out">kotlin/66.xml</item>
+</resources>
