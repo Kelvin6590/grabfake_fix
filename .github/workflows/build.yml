@@ -5,38 +5,44 @@ on:
 
 jobs:
   build:
-    name: Build on Ubuntu
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-      - name: Install JDK 17
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: 17
+    - name: Install JDK 17
+      uses: actions/setup-java@v4
+      with:
+        distribution: temurin
+        java-version: 17
 
-      - name: Download Apktool 2.9.3
-        run: |
-          wget https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar -O apktool.jar
-          wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O apktool
-          chmod +x apktool
+    - name: Download Apktool 2.9.3
+      run: |
+        wget https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar -O apktool.jar
+        chmod +x apktool.jar
 
-      - name: Decode APK (Skip if already decoded)
-        run: |
-          if [ ! -d "grabfake_dec" ]; then
-            echo "❌ No folder 'grabfake_dec' found!"
-            exit 1
-          fi
+    - name: Download AAPT1 (build-tools 28.0.3)
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y unzip
+        wget https://dl.google.com/android/repository/build-tools_r28.0.3-linux.zip -O bt.zip
+        unzip bt.zip
+        cp android-9/build-tools/28.0.3/aapt ./aapt
+        chmod +x ./aapt
 
-      - name: Build APK
-        run: |
-          ./apktool b grabfake_dec -o grabfake_rebuild.apk
+    - name: Prepare Apktool wrapper using AAPT1
+      run: |
+        echo '#!/bin/bash' > apktool
+        echo 'java -jar apktool.jar --use-aapt1 "$@"' >> apktool
+        chmod +x apktool
 
-      - name: Upload APK Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: GrabFake-Fixed-APK
-          path: grabfake_rebuild.apk
+    - name: Build APK (force aapt1)
+      run: |
+        ./apktool b grabfake_dec -o grabfake_rebuild.apk
+
+    - name: Upload APK Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: GrabFake-Rebuild
+        path: grabfake_rebuild.apk
