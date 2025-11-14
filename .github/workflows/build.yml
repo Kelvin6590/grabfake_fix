@@ -23,11 +23,11 @@ jobs:
         chmod +x apktool.jar
 
     - name: Install AAPT1 from apt
-  run: |
-    sudo apt-get update
-    sudo apt-get install -y aapt
-    cp /usr/bin/aapt ./aapt
-    chmod +x ./aapt
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y aapt
+        cp /usr/bin/aapt ./aapt
+        chmod +x ./aapt
 
     - name: Prepare Apktool wrapper using AAPT1
       run: |
@@ -44,5 +44,3 @@ jobs:
       with:
         name: GrabFake-Rebuild
         path: grabfake_rebuild.apk
-
-
