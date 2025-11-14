@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item type="layout" name="abc_screen_toolbar">kotlin/9z</item>
-    <item type="layout" name="ball">kotlin/mh</item>
-    <item type="layout" name="notification_action">kotlin/5v</item>
-    <item type="layout" name="notification_action_tombstone">kotlin/t4</item>
-    <item type="layout" name="notification_template_custom_big">kotlin/77</item>
-    <item type="layout" name="notification_template_icon_group">kotlin/pe</item>
-</resources>
