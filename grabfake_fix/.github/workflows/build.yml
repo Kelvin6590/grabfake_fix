@@ -1,0 +1,51 @@
+name: Build GrabFake APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install JDK 17
+      uses: actions/setup-java@v4
+      with:
+        distribution: temurin
+        java-version: 17
+
+    - name: Download Apktool 2.9.3
+      run: |
+        wget https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar -O apktool.jar
+        chmod +x apktool.jar
+
+    - name: Install AAPT1
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y aapt
+        cp /usr/bin/aapt ./aapt
+        chmod +x ./aapt
+
+    - name: Load Android framework
+      run: |
+        java -jar apktool.jar if framework/framework-res.apk
+        java -jar apktool.jar if framework/framework-ext-res.apk
+
+    - name: Prepare Apktool wrapper
+      run: |
+        echo '#!/bin/bash' > apktool
+        echo 'java -jar apktool.jar --use-aapt1 "$@"' >> apktool
+        chmod +x apktool
+
+    - name: Build APK
+      run: |
+        ./apktool b grabfake_dec -o grabfake_rebuild.apk
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: GrabFake-Rebuild
+        path: grabfake_rebuild.apk
