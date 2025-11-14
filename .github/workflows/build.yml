@@ -22,14 +22,12 @@ jobs:
         wget https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar -O apktool.jar
         chmod +x apktool.jar
 
-    - name: Download AAPT1 (build-tools 28.0.3)
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y unzip
-        wget https://dl.google.com/android/repository/build-tools_r28.0.3-linux.zip -O bt.zip
-        unzip bt.zip
-        cp android-9/build-tools/28.0.3/aapt ./aapt
-        chmod +x ./aapt
+    - name: Install AAPT1 from apt
+  run: |
+    sudo apt-get update
+    sudo apt-get install -y aapt
+    cp /usr/bin/aapt ./aapt
+    chmod +x ./aapt
 
     - name: Prepare Apktool wrapper using AAPT1
       run: |
@@ -46,3 +44,4 @@ jobs:
       with:
         name: GrabFake-Rebuild
         path: grabfake_rebuild.apk
+hum
